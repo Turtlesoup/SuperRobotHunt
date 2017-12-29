@@ -1,0 +1,27 @@
+name							gun			gun_power		health		speed		chase	chase_speed			aim_gun_at_player					
+
+swirlGreen						1 wave		low				low			medium		yes			medium			yes											done
+swirlPink						1 wave		medium			medium		medium		yes			medium			yes											done
+bomb robot						-			 -				medium		slow		yes			fast			-											done
+smallbot						1 normal	medium			medium		medium		yes			medium			yes											done
+smallbot purple					1 normal	medium			high		medium		yes			medium			yes											done
+tinybot							1 normal	low				low			medium		yes			fast			yes											done										
+tinybot purple					1 normal	low				medium		medium		yes			fast			yes											done
+glider green					1 normal	medium			medium		slow		no			-				no											done
+glider pink						1 normal	high			high		slow		no			-				no											done
+spikebot						-			 -				medium		medium		no			-				-											done
+spikebot purple					-			 -				high		fast		no			-				-											done
+small spikebot					-			 -				low			fast		no			-				-											done
+small spikebot purple			-			 -				medium		fast		yes			fast			-											done
+spitter horzional+vertical		4 normal	high			high		slow		no			-				no											done
+spitter horizontal				2 normal	high			high		slow		no			-				no											done
+spitter vertical				2 normal	high			high		slow		no			-				no											done
+worm blue						1 laser		high			medium		slow		no			-				yes											done
+worm green						1 laser		high			medium		slow		no			-				yes											done
+worm red						1 laser		high			high		slow		no			-				yes											done
+
+
+
+											high = 4		high =	10	fast = 0.08				fast = 0.08
+											medium = 2		medium = 5	medium = 0.04			medium = 0.06
+											low = 1			low = 2		slow = 0.02				slow = 0.04

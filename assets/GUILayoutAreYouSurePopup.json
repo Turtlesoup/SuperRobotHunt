@@ -1,0 +1,290 @@
+{
+	"id" : "1",
+	"name" : "Base",
+	"type" : "panel",
+	"x" : 0,
+	"y" : 0,
+	"properties" :
+	[
+		{
+			"key" : "width",
+			"value" : 304
+		},
+		{
+			"key" : "height",
+			"value" : 241
+		},
+		{
+			"key" : "imageURL",
+			"value" : "../assets/backgroundPanel.png"
+		}
+	],
+	"children" :
+	[
+		{
+			"id" : "2",
+			"name" : "ConfirmButton",
+			"type" : "button",
+			"x" : 0,
+			"y" : -20,
+			"properties" :
+			[
+				{
+					"key" : "width",
+					"value" : 100
+				},
+				{
+					"key" : "height",
+					"value" : 27
+				},
+				{
+					"key" : "pressedScaleFactor",
+					"value" : 0.9
+				},
+				{
+					"key" : "imageURL",
+					"value" : "../assets/button.png"
+				}
+			],
+			"children" :
+			[
+				{
+					"id" : "4",
+					"name" : "HeaderText",
+					"type" : "text",
+					"x" : 0,
+					"y" : -15,
+					"properties" :
+					[
+						{
+							"key" : "fontFile",
+							"value" : "../assets/font.fnt"
+						},
+						{
+							"key" : "text",
+							"value" : "Yes"
+						},
+						{
+							"key" : "size",
+							"value" : 32
+						},
+						{
+							"key" : "alignment",
+							"value" : "center"
+						},
+						{
+							"key" : "tintRed",
+							"value" : 255
+						},
+						{
+							"key" : "tintGreen",
+							"value" : 255
+						},
+						{
+							"key" : "tintBlue",
+							"value" : 255
+						},
+						{
+							"key" : "tintAlpha",
+							"value" : 255
+						},
+						{
+							"key" : "shadowOffsetX",
+							"value" : 1
+						},
+						{
+							"key" : "shadowOffsetY",
+							"value" : 1
+						},
+						{
+							"key" : "shadowTintRed",
+							"value" : 0
+						},
+						{
+							"key" : "shadowTintGreen",
+							"value" : 0
+						},
+						{
+							"key" : "shadowTintBlue",
+							"value" : 0
+						},
+						{
+							"key" : "shadowTintAlpha",
+							"value" : 100
+						}
+					],
+					"children" :
+					[
+					]
+				}
+			]
+		},
+		{
+			"id" : "6",
+			"name" : "CancelButton",
+			"type" : "button",
+			"x" : 0,
+			"y" : 30,
+			"properties" :
+			[
+				{
+					"key" : "width",
+					"value" : 100
+				},
+				{
+					"key" : "height",
+					"value" : 27
+				},
+				{
+					"key" : "pressedScaleFactor",
+					"value" : 0.9
+				},
+				{
+					"key" : "imageURL",
+					"value" : "../assets/button.png"
+				}
+			],
+			"children" :
+			[
+				{
+					"id" : "7",
+					"name" : "HeaderText",
+					"type" : "text",
+					"x" : 0,
+					"y" : -15,
+					"properties" :
+					[
+						{
+							"key" : "fontFile",
+							"value" : "../assets/font.fnt"
+						},
+						{
+							"key" : "text",
+							"value" : "Cancel"
+						},
+						{
+							"key" : "size",
+							"value" : 32
+						},
+						{
+							"key" : "alignment",
+							"value" : "center"
+						},
+						{
+							"key" : "tintRed",
+							"value" : 255
+						},
+						{
+							"key" : "tintGreen",
+							"value" : 255
+						},
+						{
+							"key" : "tintBlue",
+							"value" : 255
+						},
+						{
+							"key" : "tintAlpha",
+							"value" : 255
+						},
+						{
+							"key" : "shadowOffsetX",
+							"value" : 1
+						},
+						{
+							"key" : "shadowOffsetY",
+							"value" : 1
+						},
+						{
+							"key" : "shadowTintRed",
+							"value" : 0
+						},
+						{
+							"key" : "shadowTintGreen",
+							"value" : 0
+						},
+						{
+							"key" : "shadowTintBlue",
+							"value" : 0
+						},
+						{
+							"key" : "shadowTintAlpha",
+							"value" : 100
+						}
+					],
+					"children" :
+					[
+					]
+				}
+			]
+		},
+		{
+			"id" : "5",
+			"name" : "HeaderText",
+			"type" : "text",
+			"x" : 0,
+			"y" : -110,
+			"properties" :
+			[
+				{
+					"key" : "fontFile",
+					"value" : "../assets/font.fnt"
+				},
+				{
+					"key" : "text",
+					"value" : "Are\u0020You\u0020Sure?"
+				},
+				{
+					"key" : "size",
+					"value" : 40
+				},
+				{
+					"key" : "alignment",
+					"value" : "center"
+				},
+				{
+					"key" : "tintRed",
+					"value" : 255
+				},
+				{
+					"key" : "tintGreen",
+					"value" : 255
+				},
+				{
+					"key" : "tintBlue",
+					"value" : 255
+				},
+				{
+					"key" : "tintAlpha",
+					"value" : 255
+				},
+				{
+					"key" : "shadowOffsetX",
+					"value" : 1
+				},
+				{
+					"key" : "shadowOffsetY",
+					"value" : 1
+				},
+				{
+					"key" : "shadowTintRed",
+					"value" : 0
+				},
+				{
+					"key" : "shadowTintGreen",
+					"value" : 0
+				},
+				{
+					"key" : "shadowTintBlue",
+					"value" : 0
+				},
+				{
+					"key" : "shadowTintAlpha",
+					"value" : 100
+				}
+			],
+			"children" :
+			[
+			]
+		}
+	]
+}

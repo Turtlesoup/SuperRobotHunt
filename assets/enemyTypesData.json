@@ -1,0 +1,3530 @@
+{
+	"enemyTypes" :
+	[
+		{
+			"typeID" : 0,
+			"difficulty" : 2,
+			"maxHealth" : 2,
+			"destroyScore" : 2,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.04,
+			"chaseMovementSpeed" : 0.06,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 1,
+				"movementDurationBeforeCheckDelay" : 1000,
+				"checkLocationDelayTime" : 1000,
+				"onlyFollowWhenDetected" : true,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 3000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						103
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						20.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SwirlGreen.png",
+			"spriteDimensions" :
+			{
+				"width" : 47,
+				"height" : 47
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "chaseUp",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "chaseDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "chaseLeft",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "chaseRight",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 1,
+			"difficulty" : 3,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.04,
+			"chaseMovementSpeed" : 0.06,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 1,
+				"movementDurationBeforeCheckDelay" : 1000,
+				"checkLocationDelayTime" : 1000,
+				"onlyFollowWhenDetected" : true,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 3000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						104
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						20.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SwirlPink.png",
+			"spriteDimensions" :
+			{
+				"width" : 47,
+				"height" : 47
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						6,
+						0,
+						6
+					]
+				},
+				{
+					"id" : "chaseUp",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "chaseDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "chaseLeft",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"id" : "chaseRight",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 2,
+			"difficulty" : 2,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 250,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.08,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_explode.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 2,
+				"movementDurationBeforeCheckDelay" : 1,
+				"checkLocationDelayTime" : 1,
+				"onlyFollowWhenDetected" : true,
+				"directionX" : 1,
+				"directionY" : 1,
+				"explodeDelayTime" : 2000,
+				"explodeHitRadius" : 10,
+				"explodeHitForce" : 10
+			},
+			"guns" :
+			[
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/Robot3.png",
+			"spriteDimensions" :
+			{
+				"width" : 31,
+				"height" : 34
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						21,
+						1,
+						21,
+						1
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						20,
+						0,
+						20,
+						0
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						23,
+						3,
+						23,
+						3
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						22,
+						2,
+						22,
+						2
+					]
+				},
+				
+				{
+					"id" : "chaseUp",
+					"frames" :
+					[
+						28,
+						29,
+						30,
+						31
+					]
+				},
+				{
+					"id" : "chaseDown",
+					"frames" :
+					[
+						24,
+						25,
+						26,
+						27
+					]
+				},
+				{
+					"id" : "chaseLeft",
+					"frames" :
+					[
+						36,
+						37,
+						38,
+						39
+					]
+				},
+				{
+					"id" : "chaseRight",
+					"frames" :
+					[
+						32,
+						33,
+						34,
+						35
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 3,
+			"difficulty" : 2,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.04,
+			"chaseMovementSpeed" : 0.04,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 1,
+				"movementDurationBeforeCheckDelay" : 0,
+				"checkLocationDelayTime" : 0,
+				"onlyFollowWhenDetected" : true,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 500,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						101
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SmallBot.png",
+			"spriteDimensions" :
+			{
+				"width" : 28,
+				"height" : 33
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						19,
+						16,
+						19,
+						16
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						4,
+						1,
+						4,
+						1
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						9,
+						6,
+						9,
+						6
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						14,
+						11,
+						14,
+						11
+					]
+				},
+				{
+					"id" : "chaseUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "chaseDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "chaseLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "chaseRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 4,
+			"difficulty" : 3,
+			"maxHealth" : 10,
+			"destroyScore" : 10,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.04,
+			"chaseMovementSpeed" : 0.04,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 1,
+				"movementDurationBeforeCheckDelay" : 0,
+				"checkLocationDelayTime" : 0,
+				"onlyFollowWhenDetected" : true,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 500,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						101
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SmallBot_Purple.png",
+			"spriteDimensions" :
+			{
+				"width" : 28,
+				"height" : 33
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						19,
+						16,
+						19,
+						16
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						4,
+						1,
+						4,
+						1
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						9,
+						6,
+						9,
+						6
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						14,
+						11,
+						14,
+						11
+					]
+				},
+				{
+					"id" : "chaseUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "chaseDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "chaseLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "chaseRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 5,
+			"difficulty" : 1,
+			"maxHealth" : 2,
+			"destroyScore" : 2,
+			"detectionDistanceThreshold" : 200,
+			"normalMovementSpeed" : 0.04,
+			"chaseMovementSpeed" : 0.08,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_small.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 1,
+				"movementDurationBeforeCheckDelay" : 0,
+				"checkLocationDelayTime" : 0,
+				"onlyFollowWhenDetected" : true,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						100
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/TinyBot.png",
+			"spriteDimensions" :
+			{
+				"width" : 17,
+				"height" : 18
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						19,
+						16,
+						19,
+						16
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						4,
+						1,
+						4,
+						1
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						9,
+						6,
+						9,
+						6
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						14,
+						11,
+						14,
+						11
+					]
+				},
+				{
+					"id" : "chaseUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "chaseDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "chaseLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "chaseRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 6,
+			"difficulty" : 2,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 190,
+			"normalMovementSpeed" : 0.04,
+			"chaseMovementSpeed" : 0.08,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_small.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 1,
+				"movementDurationBeforeCheckDelay" : 0,
+				"checkLocationDelayTime" : 0,
+				"onlyFollowWhenDetected" : true,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						100
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/TinyBot_Purple.png",
+			"spriteDimensions" :
+			{
+				"width" : 17,
+				"height" : 18
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						19,
+						16,
+						19,
+						16
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						4,
+						1,
+						4,
+						1
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						9,
+						6,
+						9,
+						6
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						14,
+						11,
+						14,
+						11
+					]
+				},
+				{
+					"id" : "chaseUp",
+					"frames" :
+					[
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"id" : "chaseDown",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "chaseLeft",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"id" : "chaseRight",
+					"frames" :
+					[
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 7,
+			"difficulty" : 2,
+			"maxHealth" : 2,
+			"destroyScore" : 2,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 0
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+				{
+					"shotDelay" : 200,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						101
+					],
+					"bulletOffsets" :
+					[
+						270.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/GliderGreen.png",
+			"spriteDimensions" :
+			{
+				"width" : 43,
+				"height" : 27
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						3,
+						4
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						3,
+						4
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						3,
+						5
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						3,
+						5
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						2
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 8,
+			"difficulty" : 3,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 0
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+				{
+					"shotDelay" : 200,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						270.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/GliderPink.png",
+			"spriteDimensions" :
+			{
+				"width" : 43,
+				"height" : 27
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						3,
+						4
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						3,
+						4
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						3,
+						5
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						3,
+						5
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						2
+					]
+				}
+			]
+		},
+		
+		
+		{
+			"typeID" : 9,
+			"difficulty" : 2,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.04,
+			"chaseMovementSpeed" : 0.04,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SpikeBot.png",
+			"spriteDimensions" :
+			{
+				"width" : 34,
+				"height" : 43
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						2
+					]
+				}
+			]
+		},
+		
+		
+		{
+			"typeID" : 10,
+			"difficulty" : 3,
+			"maxHealth" : 10,
+			"destroyScore" : 10,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.08,
+			"chaseMovementSpeed" : 0.08,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SpikeBot_Purple.png",
+			"spriteDimensions" :
+			{
+				"width" : 34,
+				"height" : 43
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						2
+					]
+				}
+			]
+		},
+		
+		
+		{
+			"typeID" : 11,
+			"difficulty" : 2,
+			"maxHealth" : 2,
+			"destroyScore" : 2,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.08,
+			"chaseMovementSpeed" : 0.08,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_small.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SpikeBotSmall.png",
+			"spriteDimensions" :
+			{
+				"width" : 20,
+				"height" : 22
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						2
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 12,
+			"difficulty" : 3,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.08,
+			"chaseMovementSpeed" : 0.08,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_small.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SpikeBotSmall_Purple.png",
+			"spriteDimensions" :
+			{
+				"width" : 20,
+				"height" : 22
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						2
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						2
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 13,
+			"difficulty" : 2,
+			"maxHealth" : 10,
+			"destroyScore" : 10,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				},
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						90.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				},
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						180.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				},
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						270.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SpitterHorizontalAndVertical.png",
+			"spriteDimensions" :
+			{
+				"width" : 42,
+				"height" : 42
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						3
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 14,
+			"difficulty" : 2,
+			"maxHealth" : 10,
+			"destroyScore" : 10,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 0
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						90.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				},
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						270.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SpitterHorizontal.png",
+			"spriteDimensions" :
+			{
+				"width" : 42,
+				"height" : 26
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						3
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 15,
+			"difficulty" : 2,
+			"maxHealth" : 10,
+			"destroyScore" : 10,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_medium.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 0,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : false,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						90.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				},
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						102
+					],
+					"bulletOffsets" :
+					[
+						270.0
+					],
+					"bulletRandomSpread" :
+					[
+						0.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/SpitterVertical.png",
+			"spriteDimensions" :
+			{
+				"width" : 26,
+				"height" : 42
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						3
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 16,
+			"difficulty" : 3,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_large.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						105
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						40.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/WormBlue.png",
+			"spriteDimensions" :
+			{
+				"width" : 41,
+				"height" : 62
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						3
+					]
+				}
+			]
+		},
+		
+		
+		{
+			"typeID" : 17,
+			"difficulty" : 3,
+			"maxHealth" : 5,
+			"destroyScore" : 5,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_large.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						105
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						40.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/WormGreen.png",
+			"spriteDimensions" :
+			{
+				"width" : 41,
+				"height" : 62
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						3
+					]
+				}
+			]
+		},
+		
+		{
+			"typeID" : 18,
+			"difficulty" : 4,
+			"maxHealth" : 10,
+			"destroyScore" : 10,
+			"detectionDistanceThreshold" : 120,
+			"normalMovementSpeed" : 0.02,
+			"chaseMovementSpeed" : 0.02,
+			"hitForce" : 0.15,
+			"hitDelay" : 500,
+			"criticalHitPercentage" : 5,
+			"criticalHitPowerMultiplier" : 5,
+			"audio" :
+			{
+				"spawnSound" : "../assets/audio/spawn_enemy.wav",
+				"destroySound" : "../assets/audio/destroy_enemy_large.wav"
+			},
+			"ai" :
+			{
+				"aiTypeID" : 3,
+				"directionX" : 1,
+				"directionY" : 1
+			},
+			"aimGunsAtPlayer" : true,
+			"guns" :
+			[
+				{
+					"shotDelay" : 1000,
+					"numBullets" : 1,
+					"bulletTypes" :
+					[
+						105
+					],
+					"bulletOffsets" :
+					[
+						0.0
+					],
+					"bulletRandomSpread" :
+					[
+						40.0
+					]
+				}
+			],
+			"light" :
+			{
+				"size" : 300,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 183,
+					"blue" : 239,
+					"alpha" : 50
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURL" : "../assets/WormRed.png",
+			"spriteDimensions" :
+			{
+				"width" : 41,
+				"height" : 62
+			},
+			"animations" :
+			[
+				{
+					"id" : "walkUp",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkDown",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkLeft",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "walkRight",
+					"frames" :
+					[
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0,
+						2,
+						0,
+						1,
+						1,
+						1
+					]
+				},
+				{
+					"id" : "flickerUp",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerDown",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerLeft",
+					"frames" :
+					[
+						0,
+						3
+					]
+				},
+				{
+					"id" : "flickerRight",
+					"frames" :
+					[
+						0,
+						3
+					]
+				}
+			]
+		}
+	]
+}

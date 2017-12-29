@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0AA4900-C40C-4891-A2B5-DC39A4E94225}</ProjectGuid>
+    <RootNamespace>LDGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\SFML-2.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-audio-s-d.lib;sfml-graphics-s-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib;sfml-window-s-d.lib;sfml-main-d.lib;flac.lib;ogg.lib;openal32.lib;jpeg.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;freetype.lib;ws2_32.lib;opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\SFML-2.4.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\SFML-2.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-audio-s.lib;sfml-graphics-s.lib;sfml-network-s.lib;sfml-system-s.lib;sfml-window-s.lib;sfml-main.lib;flac.lib;ogg.lib;openal32.lib;jpeg.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;freetype.lib;ws2_32.lib;opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\SFML-2.4.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedDisplayObject.cpp" />
+    <ClCompile Include="AnimConsts.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="AreYouSurePopup.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="BaseAI.cpp" />
+    <ClCompile Include="BaseBullet.cpp" />
+    <ClCompile Include="BaseGuiWidget.cpp" />
+    <ClCompile Include="BasePopup.cpp" />
+    <ClCompile Include="BaseSpriteGuiWidget.cpp" />
+    <ClCompile Include="BaseState.cpp" />
+    <ClCompile Include="BezierCurve.cpp" />
+    <ClCompile Include="BitmapFont.cpp" />
+    <ClCompile Include="BorderedTextBox.cpp" />
+    <ClCompile Include="BulletTypeDataManager.cpp" />
+    <ClCompile Include="ButtonGuiWidget.cpp" />
+    <ClCompile Include="ChaseAI.cpp" />
+    <ClCompile Include="ChaseExplodeAI.cpp" />
+    <ClCompile Include="CircleFlash.cpp" />
+    <ClCompile Include="CollectableGem.cpp" />
+    <ClCompile Include="CollectableHealth.cpp" />
+    <ClCompile Include="CollectableSmallGem.cpp" />
+    <ClCompile Include="CollectableWeapon.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="CubicBezierCurve.cpp" />
+    <ClCompile Include="CurveBullet.cpp" />
+    <ClCompile Include="Directions.cpp" />
+    <ClCompile Include="Collectable.cpp" />
+    <ClCompile Include="CollidableObject.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyTypeDataManager.cpp" />
+    <ClCompile Include="GameOverOverlay.cpp" />
+    <ClCompile Include="GameStateGameOver.cpp" />
+    <ClCompile Include="GameStateManager.cpp" />
+    <ClCompile Include="GameStateNormal.cpp" />
+    <ClCompile Include="GameStatePaused.cpp" />
+    <ClCompile Include="GameStateWaveComplete.cpp" />
+    <ClCompile Include="GUIConsts.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="GunProperties.cpp" />
+    <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="JSON.cpp" />
+    <ClCompile Include="JSONValue.cpp" />
+    <ClCompile Include="GuiLayoutData.cpp" />
+    <ClCompile Include="GuiLayoutProperty.cpp" />
+    <ClCompile Include="KeyListener.cpp" />
+    <ClCompile Include="KeyPressedEventData.cpp" />
+    <ClCompile Include="KeyReleasedEventData.cpp" />
+    <ClCompile Include="LaserBullet.cpp" />
+    <ClCompile Include="MenuPopup.cpp" />
+    <ClCompile Include="MovePathAI.cpp" />
+    <ClCompile Include="OneShotEffect.cpp" />
+    <ClCompile Include="OptionsPopup.cpp" />
+    <ClCompile Include="PlayerData.cpp" />
+    <ClCompile Include="PlayerDataConsts.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="GameOverPanel.cpp" />
+    <ClCompile Include="SceneLayer.cpp" />
+    <ClCompile Include="EmittingObject.cpp" />
+    <ClCompile Include="EnemyGun.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="FlickeringLight.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameSceneData.cpp" />
+    <ClCompile Include="Gun.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="DisplayObject.cpp" />
+    <ClCompile Include="EventData.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="OmniDirectionBullet.cpp" />
+    <ClCompile Include="PlayerGun.cpp" />
+    <ClCompile Include="ScoreText.cpp" />
+    <ClCompile Include="SFMLEventData.cpp" />
+    <ClCompile Include="TextGuiWidget.cpp" />
+    <ClCompile Include="TextIndicator.cpp" />
+    <ClCompile Include="TitlePanel.cpp" />
+    <ClCompile Include="TransformableObject.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="SceneData.cpp" />
+    <ClCompile Include="SpriteBatch.cpp" />
+    <ClCompile Include="SpriteDisplayObject.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="StringHelper.cpp" />
+    <ClCompile Include="TextDisplayObject.cpp" />
+    <ClCompile Include="TextureAtlas.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TileMap.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="WaveManager.cpp" />
+    <ClCompile Include="WaveText.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedDisplayObject.h" />
+    <ClInclude Include="AnimConsts.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="AreYouSurePopup.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="BaseAI.h" />
+    <ClInclude Include="BaseBullet.h" />
+    <ClInclude Include="BasePopup.h" />
+    <ClInclude Include="BaseSpriteGuiWidget.h" />
+    <ClInclude Include="BaseState.h" />
+    <ClInclude Include="BezierCurve.h" />
+    <ClInclude Include="BitmapFont.h" />
+    <ClInclude Include="BorderedTextBox.h" />
+    <ClInclude Include="BulletTypeDataManager.h" />
+    <ClInclude Include="ButtonGuiWidget.h" />
+    <ClInclude Include="ChaseAI.h" />
+    <ClInclude Include="ChaseExplodeAI.h" />
+    <ClInclude Include="CircleFlash.h" />
+    <ClInclude Include="CollectableGem.h" />
+    <ClInclude Include="CollectableHealth.h" />
+    <ClInclude Include="CollectableSmallGem.h" />
+    <ClInclude Include="CollectableWeapon.h" />
+    <ClInclude Include="CollisionLayers.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="CubicBezierCurve.h" />
+    <ClInclude Include="CurveBullet.h" />
+    <ClInclude Include="Collectable.h" />
+    <ClInclude Include="CollidableObject.h" />
+    <ClInclude Include="Directions.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyTypeDataManager.h" />
+    <ClInclude Include="BaseGuiWidget.h" />
+    <ClInclude Include="GameOverOverlay.h" />
+    <ClInclude Include="GameStateGameOver.h" />
+    <ClInclude Include="GameStateManager.h" />
+    <ClInclude Include="GameStateNormal.h" />
+    <ClInclude Include="GameStatePaused.h" />
+    <ClInclude Include="GameStateWaveComplete.h" />
+    <ClInclude Include="GUIConsts.h" />
+    <ClInclude Include="GunProperties.h" />
+    <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="JSON.h" />
+    <ClInclude Include="JSONValue.h" />
+    <ClInclude Include="GuiLayoutData.h" />
+    <ClInclude Include="GuiLayoutProperty.h" />
+    <ClInclude Include="KeyListener.h" />
+    <ClInclude Include="KeyPressedEventData.h" />
+    <ClInclude Include="KeyReleasedEventData.h" />
+    <ClInclude Include="LaserBullet.h" />
+    <ClInclude Include="LootTypes.h" />
+    <ClInclude Include="MenuPopup.h" />
+    <ClInclude Include="MovePathAI.h" />
+    <ClInclude Include="OneShotEffect.h" />
+    <ClInclude Include="OptionsPopup.h" />
+    <ClInclude Include="PlayerData.h" />
+    <ClInclude Include="PlayerDataConsts.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="GameOverPanel.h" />
+    <ClInclude Include="SceneLayer.h" />
+    <ClInclude Include="EmittingObject.h" />
+    <ClInclude Include="EnemyGun.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="FlickeringLight.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameSceneData.h" />
+    <ClInclude Include="Gun.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="DisplayObject.h" />
+    <ClInclude Include="EventData.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="OmniDirectionBullet.h" />
+    <ClInclude Include="PlayerGun.h" />
+    <ClInclude Include="GuiManager.h" />
+    <ClInclude Include="ScoreText.h" />
+    <ClInclude Include="ScoreValues.h" />
+    <ClInclude Include="SFMLEventData.h" />
+    <ClInclude Include="TextGuiWidget.h" />
+    <ClInclude Include="TextIndicator.h" />
+    <ClInclude Include="TitlePanel.h" />
+    <ClInclude Include="TransformableObject.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="SceneData.h" />
+    <ClInclude Include="SpriteBatch.h" />
+    <ClInclude Include="SpriteDisplayObject.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="StringHelper.h" />
+    <ClInclude Include="TextDisplayObject.h" />
+    <ClInclude Include="TextureAtlas.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="TileMap.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="WaveManager.h" />
+    <ClInclude Include="WaveText.h" />
+    <ClInclude Include="WidgetTypes.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

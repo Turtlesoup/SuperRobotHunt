@@ -1,0 +1,1422 @@
+{
+	"bulletTypes" :
+	[
+		{
+			"typeID" : 0,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.5,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 20,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 255,
+					"blue" : 0,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet1.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 1,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : true,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 1,
+				"delayMultiplier" : 1,
+				"amplitude" : 20,
+				"frequency" : 0.0025
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet2.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 14,
+				"height" : 14
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 2,
+			"playerBullet" : true,
+			"power" : 6,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 2,
+				"delayMultiplier" : 10
+			},
+			"light" :
+			{
+				"size" : 1,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet3.png", "../assets/bullet3Start.png", "../assets/bullet3End.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 3,
+				"height" : 5
+			},
+			"animations" :
+			[
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/laser_1.wav",
+				"destroySound" : "../assets/audio/laser_1.wav"
+			}
+		},
+		
+		{
+			"typeID" : 3,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.2,
+			"lifetime" : 1500,
+			"bounceOffWalls" : true,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 20,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 255,
+					"blue" : 255,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet4.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 4,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 10,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 1,
+				"delayMultiplier" : 5,
+				"amplitude" : 150,
+				"frequency" : 0.00025
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 0,
+					"blue" : 255,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet5.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 6,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.2,
+			"lifetime" : 500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 3,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 10,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 0,
+					"blue" : 255,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet6.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+
+		{
+			"typeID" : 7,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.3,
+			"lifetime" : 3000,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 10,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 255,
+					"blue" : 255,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet7.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 8,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 2.0,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 10,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 200,
+					"blue" : 55,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet8.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 2
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 9,
+			"playerBullet" : false,
+			"power" : 1,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : true,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : false,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 1,
+				"delayMultiplier" : 1,
+				"amplitude" : 20,
+				"frequency" : 0.0025
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet9.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 5
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 10,
+			"playerBullet" : false,
+			"power" : 1,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : true,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : false,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 1,
+				"delayMultiplier" : 1,
+				"amplitude" : 20,
+				"frequency" : 0.0025
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 150,
+					"green" : 200,
+					"blue" : 255,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet10.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 5
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 11,
+			"playerBullet" : true,
+			"power" : 6,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 2,
+				"delayMultiplier" : 10
+			},
+			"light" :
+			{
+				"size" : 1,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet11.png", "../assets/bullet11Start.png", "../assets/bullet11End.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 3,
+				"height" : 5
+			},
+			"animations" :
+			[
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/laser_1.wav",
+				"destroySound" : "../assets/audio/laser_1.wav"
+			}
+		},
+		
+		{
+			"typeID" : 12,
+			"playerBullet" : true,
+			"power" : 6,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 2,
+				"delayMultiplier" : 10
+			},
+			"light" :
+			{
+				"size" : 1,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet12.png","../assets/bullet12Start.png","../assets/bullet12End.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 3,
+				"height" : 5
+			},
+			"animations" :
+			[
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/laser_1.wav",
+				"destroySound" : "../assets/audio/laser_1.wav"
+			}
+		},
+		
+		{
+			"typeID" : 13,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.3,
+			"lifetime" : 3000,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 10,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 220,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet13.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 14,
+			"playerBullet" : true,
+			"power" : 1,
+			"speed" : 0.3,
+			"lifetime" : 3000,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 10,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 150,
+					"green" : 200,
+					"blue" : 255,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet14.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"typeID" : 100,
+			"playerBullet" : false,
+			"power" : 1,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 20,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 255,
+					"blue" : 0,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet1.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 101,
+			"playerBullet" : false,
+			"power" : 1,
+			"speed" : 0.075,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 20,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 255,
+					"blue" : 0,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet1.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_2.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 102,
+			"playerBullet" : false,
+			"power" : 1,
+			"speed" : 0.05,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 3,
+			"minBulletSpread" : 5,
+			"maxBulletSpread" : 20,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 5,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 0,
+				"delayMultiplier" : 1
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 0,
+					"green" : 255,
+					"blue" : 0,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet1.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 9,
+				"height" : 9
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_3.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 103,
+			"playerBullet" : false,
+			"power" : 1,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : true,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 1,
+				"delayMultiplier" : 1,
+				"amplitude" : 20,
+				"frequency" : 0.0025
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet2.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 14,
+				"height" : 14
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 104,
+			"playerBullet" : false,
+			"power" : 2,
+			"speed" : 0.05,
+			"lifetime" : 1500,
+			"bounceOffWalls" : true,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 1,
+				"delayMultiplier" : 1,
+				"amplitude" : 20,
+				"frequency" : 0.0025
+			},
+			"light" :
+			{
+				"size" : 50,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet2.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 14,
+				"height" : 14
+			},
+			"animations" :
+			[
+				{
+					"id" : "idle",
+					"frames" :
+					[
+						0
+					]
+				},
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/pulse_1.wav",
+				"destroySound" : "../assets/audio/pulse_hit.wav"
+			}
+		},
+		
+		{
+			"typeID" : 105,
+			"playerBullet" : false,
+			"power" : 3,
+			"speed" : 0.1,
+			"lifetime" : 1500,
+			"bounceOffWalls" : false,
+			"collisionSize" : 9,
+			"doRayCastCheckOnBulletTravelPath" : true,
+			"minPerShot" : 1,
+			"maxPerShot" : 1,
+			"minBulletSpread" : 0,
+			"maxBulletSpread" : 0,
+			"minBulletAccuracyOffset" : 0,
+			"maxBulletAccuracyOffset" : 0,
+			"behaviour" :
+			{
+				"behaviourTypeID" : 2,
+				"delayMultiplier" : 10
+			},
+			"light" :
+			{
+				"size" : 1,
+				"colour" :
+				{
+					"red" : 255,
+					"green" : 150,
+					"blue" : 150,
+					"alpha" : 255
+				},
+				"offset" :
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			},
+			"textureURLs" : ["../assets/bullet3.png", "../assets/bullet3Start.png", "../assets/bullet3End.png"],
+			"animationSpeed" : 75,
+			"spriteDimensions" :
+			{
+				"width" : 3,
+				"height" : 5
+			},
+			"animations" :
+			[
+				{
+					"id" : "explode",
+					"frames" :
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"audio" :
+			{
+				"shootSound" : "../assets/audio/laser_1.wav",
+				"destroySound" : "../assets/audio/laser_1.wav"
+			}
+		}
+	]
+}

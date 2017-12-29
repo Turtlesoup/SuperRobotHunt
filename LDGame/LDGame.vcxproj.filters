@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{57ea2ff9-d8c9-416d-b994-60b14930b843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimpleJSON">
+      <UniqueIdentifier>{8b2c7911-7bb2-4c48-846a-2f6949fd5e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{f156b082-003c-438f-a9fd-660a782ff9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\SceneData">
+      <UniqueIdentifier>{eb474667-b8b4-4eb3-b7bd-16591fa27874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scenes">
+      <UniqueIdentifier>{dff7a46f-4a0b-46ab-9750-de93402a5888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects">
+      <UniqueIdentifier>{95fbe526-bfe8-4537-a54d-e88b198dd54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Bullets">
+      <UniqueIdentifier>{dcaa07b3-d533-4773-8fb0-c46e0be4d2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Enemies">
+      <UniqueIdentifier>{eb44ece3-b270-4831-8956-c6770f05edbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Lights">
+      <UniqueIdentifier>{1bd519d5-7291-47f6-9e71-0eb691ce399a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Collectables">
+      <UniqueIdentifier>{ed0a1c82-c3c6-44dc-a432-e50aabe2150e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\DataTypes">
+      <UniqueIdentifier>{bbd6f2b6-7fdd-4402-b3cc-d4058322b0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GUI">
+      <UniqueIdentifier>{244839f3-85ad-4ffd-a5a6-b566f3d0db01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Events">
+      <UniqueIdentifier>{44753598-8aa9-4fa7-82a2-de5464754d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Audio">
+      <UniqueIdentifier>{88864b32-55fd-4325-a624-9e1fc394cb57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Math">
+      <UniqueIdentifier>{48f7a795-93aa-4c89-8384-d4878bc22857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Collision">
+      <UniqueIdentifier>{bbe41234-e75e-4413-94fa-d9f4017a2fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\BitmapFonts">
+      <UniqueIdentifier>{3111e34d-3517-47a7-965b-4decf45f8ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Core">
+      <UniqueIdentifier>{8d3b7388-8f81-42d7-b4e9-16acc5da3c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Tilemap">
+      <UniqueIdentifier>{cb76592a-6ca3-41da-a60e-7e1aaf7d67d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Utilities">
+      <UniqueIdentifier>{48494b7e-6995-4d46-9bf4-d1feec417271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Effects">
+      <UniqueIdentifier>{43dbbd82-2668-4e9d-b688-03fd53751760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scenes\GameScene">
+      <UniqueIdentifier>{596db3a3-a63c-49d6-a8bf-fadeca97bc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scenes\TitleScene">
+      <UniqueIdentifier>{b0361560-65a4-4e8c-9f8c-9e5e77dce1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\DataStore">
+      <UniqueIdentifier>{a4271bb3-e929-4841-a772-a46a5ecdfe11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scenes\GameScene\States">
+      <UniqueIdentifier>{c3568090-8d1e-482d-bd2d-7f01db63bb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\HUD">
+      <UniqueIdentifier>{9ea510f5-0663-4f21-bc7b-8772cf08d822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GUIScenes">
+      <UniqueIdentifier>{6eed842f-befc-48d3-9007-89fb897ed4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Enemies\AI">
+      <UniqueIdentifier>{3f187737-22b8-4aaf-addb-93407506e192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Consts">
+      <UniqueIdentifier>{10ccc02a-802e-4478-b7f1-f82501729376}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameSceneData.cpp">
+      <Filter>Source Files\Game\SceneData</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EmittingObject.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FlickeringLight.cpp">
+      <Filter>Source Files\Game\GameObjects\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Game\GameObjects\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBullet.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="OmniDirectionBullet.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveBullet.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGun.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGun.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON.cpp">
+      <Filter>Source Files\SimpleJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONValue.cpp">
+      <Filter>Source Files\SimpleJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Directions.cpp">
+      <Filter>Source Files\Game\DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGuiWidget.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiLayoutData.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiLayoutProperty.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGuiWidget.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextGuiWidget.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSpriteGuiWidget.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectableWeapon.cpp">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectableGem.cpp">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectableSmallGem.cpp">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePopup.cpp">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPopup.cpp">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPressedEventData.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyReleasedEventData.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBullet.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CubicBezierCurve.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidableObject.cpp">
+      <Filter>Source Files\Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Source Files\Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapFont.cpp">
+      <Filter>Source Files\Engine\BitmapFonts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventData.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Engine\Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Source Files\Engine\Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLayer.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneData.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedDisplayObject.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayObject.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformableObject.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDisplayObject.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAtlas.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyListener.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDisplayObject.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TextIndicator.cpp">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIConsts.cpp">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="OneShotEffect.cpp">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleFlash.cpp">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GunProperties.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Source Files\Game\Scenes\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveManager.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateNormal.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatePaused.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>Source Files\Game\DataStore</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDataConsts.cpp">
+      <Filter>Source Files\Game\DataStore</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateGameOver.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreText.cpp">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="AreYouSurePopup.cpp">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateWaveComplete.cpp">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BorderedTextBox.cpp">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverOverlay.cpp">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectableHealth.cpp">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveText.cpp">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverPanel.cpp">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePanel.cpp">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsPopup.cpp">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTypeDataManager.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseAI.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaseAI.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaseExplodeAI.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTypeDataManager.cpp">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="MovePathAI.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Source Files\Game\Consts</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimConsts.cpp">
+      <Filter>Source Files\Game\Consts</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLEventData.cpp">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameSceneData.h">
+      <Filter>Source Files\Game\SceneData</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EmittingObject.h">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Source Files\Game\GameObjects\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="FlickeringLight.h">
+      <Filter>Source Files\Game\GameObjects\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBullet.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="OmniDirectionBullet.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveBullet.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGun.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGun.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONValue.h">
+      <Filter>Source Files\SimpleJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON.h">
+      <Filter>Source Files\SimpleJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>Source Files\Game\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="LootTypes.h">
+      <Filter>Source Files\Game\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGuiWidget.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiLayoutData.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiLayoutProperty.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGuiWidget.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetTypes.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextGuiWidget.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSpriteGuiWidget.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectableWeapon.h">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectableGem.h">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectableSmallGem.h">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePopup.h">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPopup.h">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPressedEventData.h">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyReleasedEventData.h">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBullet.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Source Files\Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CubicBezierCurve.h">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Source Files\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableObject.h">
+      <Filter>Source Files\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionLayers.h">
+      <Filter>Source Files\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Source Files\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapFont.h">
+      <Filter>Source Files\Engine\BitmapFonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventData.h">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Source Files\Engine\Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Source Files\Engine\Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLayer.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneData.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedDisplayObject.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayObject.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformableObject.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDisplayObject.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlas.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyListener.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDisplayObject.h">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TextIndicator.h">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIConsts.h">
+      <Filter>Source Files\Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="OneShotEffect.h">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleFlash.h">
+      <Filter>Source Files\Game\GameObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GunProperties.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Source Files\Game\Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Source Files\Game\Scenes\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveManager.h">
+      <Filter>Source Files\Game\Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateNormal.h">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatePaused.h">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDataConsts.h">
+      <Filter>Source Files\Game\DataStore</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Source Files\Game\DataStore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateGameOver.h">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreText.h">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreValues.h">
+      <Filter>Source Files\Game\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="AreYouSurePopup.h">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateWaveComplete.h">
+      <Filter>Source Files\Game\Scenes\GameScene\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BorderedTextBox.h">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverOverlay.h">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectableHealth.h">
+      <Filter>Source Files\Game\GameObjects\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveText.h">
+      <Filter>Source Files\Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverPanel.h">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePanel.h">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsPopup.h">
+      <Filter>Source Files\Game\GUIScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTypeDataManager.h">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAI.h">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaseAI.h">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaseExplodeAI.h">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTypeDataManager.h">
+      <Filter>Source Files\Game\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="MovePathAI.h">
+      <Filter>Source Files\Game\GameObjects\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Source Files\Game\Consts</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimConsts.h">
+      <Filter>Source Files\Game\Consts</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLEventData.h">
+      <Filter>Source Files\Engine\Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

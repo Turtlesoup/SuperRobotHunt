@@ -1,0 +1,1251 @@
+{
+	"spawnPatterns" :
+	[
+		{
+			"lootWeaponChance" : 1.0,
+			"lootLifeChance" : 1.0,
+			"descripton" : "1Center",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 256,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.5,
+			"lootLifeChance" : 0.5,
+			"descripton" : "1Center",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 256,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3CenterVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 256,
+							"y" : 96
+						},
+						{
+							"x" : 256,
+							"y" : 192
+						},
+						{
+							"x" : 256,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3FarLeftVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3LeftVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 96
+						},
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 128,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3FarRightVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3RightVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 384,
+							"y" : 96
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3FarRightVerticalAnd3FarLeftVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3LeftVerticalAnd3RightVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 96
+						},
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 128,
+							"y" : 288
+						},
+						{
+							"x" : 384,
+							"y" : 96
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3CenterHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 256,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4CenterHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 192,
+							"y" : 192
+						},
+						{
+							"x" : 320,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4TopHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4BottomHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4TopHorizontalAnd4BottomHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "6OuterPerimeter",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "6InnerPerimeter",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 128
+						},
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 128,
+							"y" : 256
+						},
+						{
+							"x" : 256,
+							"y" : 128
+						},
+						{
+							"x" : 256,
+							"y" : 256
+						},
+						{
+							"x" : 384,
+							"y" : 128
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 256
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "6OuterPerimeterAnd6InnerPerimeter",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						},
+						{
+							"x" : 128,
+							"y" : 128
+						},
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 128,
+							"y" : 256
+						},
+						{
+							"x" : 256,
+							"y" : 128
+						},
+						{
+							"x" : 256,
+							"y" : 256
+						},
+						{
+							"x" : 384,
+							"y" : 128
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 256
+						}
+					]
+				}
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3CenterVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 256,
+							"y" : 96
+						},
+						{
+							"x" : 256,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 256,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3FarLeftVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3LeftVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 96
+						},
+						{
+							"x" : 128,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3FarRightVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 448,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3RightVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 384,
+							"y" : 96
+						},
+						{
+							"x" : 384,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 384,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3FarRightVerticalAnd3FarLeftVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3LeftVerticalAnd3RightVertical",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 96
+						},
+						{
+							"x" : 128,
+							"y" : 288
+						},
+						{
+							"x" : 384,
+							"y" : 96
+						},
+						{
+							"x" : 384,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 384,
+							"y" : 192
+						},
+						{
+							"x" : 128,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "3CenterHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 256,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4CenterHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 192,
+							"y" : 192
+						},
+						{
+							"x" : 320,
+							"y" : 192
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4TopHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4BottomHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "4TopHorizontalAnd4BottomHorizontal",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "10OuterPerimeter",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "6InnerPerimeter",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 128
+						},
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 128,
+							"y" : 256
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 256,
+							"y" : 128
+						},
+						{
+							"x" : 256,
+							"y" : 256
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 384,
+							"y" : 128
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 256
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"lootWeaponChance" : 0.25,
+			"lootLifeChance" : 0.9,
+			"descripton" : "10OuterPerimeterAnd6InnerPerimeter",
+			"groups" :
+			[
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 64,
+							"y" : 96
+						},
+						{
+							"x" : 192,
+							"y" : 96
+						},
+						{
+							"x" : 320,
+							"y" : 96
+						},
+						{
+							"x" : 448,
+							"y" : 96
+						},
+						{
+							"x" : 64,
+							"y" : 192
+						},
+						{
+							"x" : 448,
+							"y" : 192
+						},
+						{
+							"x" : 64,
+							"y" : 288
+						},
+						{
+							"x" : 192,
+							"y" : 288
+						},
+						{
+							"x" : 320,
+							"y" : 288
+						},
+						{
+							"x" : 448,
+							"y" : 288
+						}
+					]
+				},
+				{
+					"spawnPositions" :
+					[
+						{
+							"x" : 128,
+							"y" : 128
+						},
+						{
+							"x" : 128,
+							"y" : 192
+						},
+						{
+							"x" : 128,
+							"y" : 256
+						},
+						{
+							"x" : 256,
+							"y" : 128
+						},
+						{
+							"x" : 256,
+							"y" : 256
+						},
+						{
+							"x" : 384,
+							"y" : 128
+						},
+						{
+							"x" : 384,
+							"y" : 192
+						},
+						{
+							"x" : 384,
+							"y" : 256
+						}
+					]
+				}
+			]
+		}
+	]
+}
